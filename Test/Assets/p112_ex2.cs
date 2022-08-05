@@ -1,5 +1,5 @@
-using UnityEngine;
-using System;  // console °ü·ÃÀº ½Ã½ºÅÛ ¾È¿¡ ÀÖ´Ù.
+ï»¿using UnityEngine;
+using System;  // console ê´€ë ¨ì€ ì‹œìŠ¤í…œ ì•ˆì— ìˆë‹¤.
 
 public class p112_ex2 : MonoBehaviour
 {
@@ -8,14 +8,14 @@ public class p112_ex2 : MonoBehaviour
     {
         int year = 2022;
         int b_year = 1996;
-        Debug.Log("ÇöÀç³âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+        Debug.Log("í˜„ì¬ë…„ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
         Debug.Log($"{year}");
-        Debug.Log("Ãâ»ı³âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+        Debug.Log("ì¶œìƒë…„ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
         Debug.Log($"{b_year}");
-        Debug.Log($"³ªÀÇ ³ªÀÌ´Â : {year - b_year + 1}");
+        Debug.Log($"ë‚˜ì˜ ë‚˜ì´ëŠ” : {year - b_year + 1}");
 
         Console.ForegroundColor = ConsoleColor.Red;
-        Debug.Log("(³ªÀÇ ³ªÀÌ´Â ¸¸ ³ªÀÌ°¡ ¾Æ´Ñ ÇÑ±¹½Ä ³ªÀÌ·Î ³ª¿À°Ô ÇØÁÖ¼¼¿ä.)");
+        Debug.Log("(ë‚˜ì˜ ë‚˜ì´ëŠ” ë§Œ ë‚˜ì´ê°€ ì•„ë‹Œ í•œêµ­ì‹ ë‚˜ì´ë¡œ ë‚˜ì˜¤ê²Œ í•´ì£¼ì„¸ìš”.)");
         Console.ResetColor();
 
 

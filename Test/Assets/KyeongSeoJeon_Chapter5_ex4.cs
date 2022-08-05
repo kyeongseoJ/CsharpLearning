@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -31,7 +31,7 @@ public class KyeongSeoJeon_Chapter5_ex4 : MonoBehaviour
             {
                 min = num3;
             }
-            Debug.Log($"ÃÖ´ñ°ªÀº {max}, ÃÖ¼Ú°ªÀº {min}ÀÌ°í ÇÕ°è´Â {total} Æò±ÕÀº {avg}ÀÔ´Ï´Ù.");
+            Debug.Log($"ìµœëŒ“ê°’ì€ {max}, ìµœì†Ÿê°’ì€ {min}ì´ê³  í•©ê³„ëŠ” {total} í‰ê· ì€ {avg}ì…ë‹ˆë‹¤.");
         }
         else if (num2 > num1 && num2 > num3)
         {
@@ -44,7 +44,7 @@ public class KyeongSeoJeon_Chapter5_ex4 : MonoBehaviour
             {
                 min = num1;
             }
-            Debug.Log($"ÃÖ´ñ°ªÀº {max}, ÃÖ¼Ú°ªÀº {min}ÀÌ°í ÇÕ°è´Â {total} Æò±ÕÀº {avg}ÀÔ´Ï´Ù.");
+            Debug.Log($"ìµœëŒ“ê°’ì€ {max}, ìµœì†Ÿê°’ì€ {min}ì´ê³  í•©ê³„ëŠ” {total} í‰ê· ì€ {avg}ì…ë‹ˆë‹¤.");
         }
         else if (num3 > num1 && num3 > num2)
         {
@@ -57,7 +57,7 @@ public class KyeongSeoJeon_Chapter5_ex4 : MonoBehaviour
             {
                 min = num1;
             }
-            Debug.Log($"ÃÖ´ñ°ªÀº {max}, ÃÖ¼Ú°ªÀº {min}ÀÌ°í ÇÕ°è´Â {total} Æò±ÕÀº {avg}ÀÔ´Ï´Ù.");
+            Debug.Log($"ìµœëŒ“ê°’ì€ {max}, ìµœì†Ÿê°’ì€ {min}ì´ê³  í•©ê³„ëŠ” {total} í‰ê· ì€ {avg}ì…ë‹ˆë‹¤.");
         }
 
     }

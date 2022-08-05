@@ -62,7 +62,9 @@
     <Compile Include="Assets\KyeongSeoJeon_Chapter5_ex1.cs" />
     <Compile Include="Assets\Chapter5.cs" />
     <Compile Include="Assets\Chapter4.cs" />
+    <Compile Include="Assets\KyeongSeoJeon_Chapter5_EX9.cs" />
     <Compile Include="Assets\IF_Saetze.cs" />
+    <Compile Include="Assets\Chapter6.cs" />
     <Compile Include="Assets\KyeongSeoJeon_Chapter5_ex3.cs" />
     <Compile Include="Assets\p112_ex2.cs" />
     <Compile Include="Assets\KyeongSeoJeon_Chapter5_ex4.cs" />
@@ -73,8 +75,6 @@
     <Compile Include="Assets\KyeongSeoJeon_Chapter5_ex5.cs" />
     <Compile Include="Assets\KyeongSeoJeon_Chapter5_ex10.cs" />
     <Compile Include="Assets\test.cs" />
-    <Compile Include="Assets\KyeongSeoJeon_Chapter5_EX9.cs" />
-    <Compile Include="Assets\Chapter6.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

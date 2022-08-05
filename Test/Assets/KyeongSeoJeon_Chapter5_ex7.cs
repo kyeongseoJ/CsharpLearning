@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +7,7 @@ public class KyeongSeoJeon_Chapter5_ex7 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //°¢ ¿ù¿¡ µû¸¥ ÇÑ´Ş°£ÀÇ ³¯Â¥ ¼ö¸¦ ¾Ë·ÁÁÖ´Â ÇÁ·Î±×·¥À» ¸¸µé¾îÁÖ¼¼¿ä.
+        //ê° ì›”ì— ë”°ë¥¸ í•œë‹¬ê°„ì˜ ë‚ ì§œ ìˆ˜ë¥¼ ì•Œë ¤ì£¼ëŠ” í”„ë¡œê·¸ë¨ì„ ë§Œë“¤ì–´ì£¼ì„¸ìš”.
 
         string userInput = "7";
         int input = int.Parse(userInput);
@@ -28,7 +28,7 @@ public class KyeongSeoJeon_Chapter5_ex7 : MonoBehaviour
                 days = 31;
                 break;
         }
-        Debug.Log($"{input}Àº/´Â {days}±îÁö ÀÖ½À´Ï´Ù. ");
+        Debug.Log($"{input}ì€/ëŠ” {days}ê¹Œì§€ ìˆìŠµë‹ˆë‹¤. ");
     }
 
     // Update is called once per frame

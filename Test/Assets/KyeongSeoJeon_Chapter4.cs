@@ -1,20 +1,20 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class KyeongSeoJeon_Chapter4 : MonoBehaviour
 {
-    //1. i++¿Í ++iÀÇ Â÷ÀÌÁ¡Àº ¹«¾ùÀÎ°¡¿ä?
-    //    i++ Àº °è»ê ÀüÀÇ °ªÀÌ ³ª¿À°í °è»êÀÌ ³ªÁß¿¡ Àû¿ëµÈ´Ù. ¼±Ãâ·Â ÈÄ¿¬»ê
-    //    ++i ´Â °è»êÀÌ ¸ÕÀú Àû¿ëµÈ ÈÄ °ªÀÌ ³ª¿Â´Ù. ¼±¿¬»ê ÈÄÃâ·Â
+    //1. i++ì™€ ++iì˜ ì°¨ì´ì ì€ ë¬´ì—‡ì¸ê°€ìš”?
+    //    i++ ì€ ê³„ì‚° ì „ì˜ ê°’ì´ ë‚˜ì˜¤ê³  ê³„ì‚°ì´ ë‚˜ì¤‘ì— ì ìš©ëœë‹¤. ì„ ì¶œë ¥ í›„ì—°ì‚°
+    //    ++i ëŠ” ê³„ì‚°ì´ ë¨¼ì € ì ìš©ëœ í›„ ê°’ì´ ë‚˜ì˜¨ë‹¤. ì„ ì—°ì‚° í›„ì¶œë ¥
 
-    //2. °¢ Ãâ·Â¹®ÀÇ °ªÀ» ÀûÀ¸¼¼¿ä.
+    //2. ê° ì¶œë ¥ë¬¸ì˜ ê°’ì„ ì ìœ¼ì„¸ìš”.
     //int i = 1;
-    //    Debug.Log(i = i + 1); ´ä : 2
-    //    Debug.Log(i++); ´ä : 2
-    //    Debug.Log(++i); ´ä : 4
-    //    Debug.Log(i += 1); ´ä : 5
+    //    Debug.Log(i = i + 1); ë‹µ : 2
+    //    Debug.Log(i++); ë‹µ : 2
+    //    Debug.Log(++i); ë‹µ : 4
+    //    Debug.Log(i += 1); ë‹µ : 5
 
-    //3. ´ÙÀ½ ÄÚµå¿¡¼­ b´Â ¾î¶² °ªÀ» °¡Áú±î¿ä?
+    //3. ë‹¤ìŒ ì½”ë“œì—ì„œ bëŠ” ì–´ë–¤ ê°’ì„ ê°€ì§ˆê¹Œìš”?
     //int a = 10;
-    //string b = a == 0 ? "°¡³ª´Ù" : "ABC";
-    //´ä : "ABC"
+    //string b = a == 0 ? "ê°€ë‚˜ë‹¤" : "ABC";
+    //ë‹µ : "ABC"
 }

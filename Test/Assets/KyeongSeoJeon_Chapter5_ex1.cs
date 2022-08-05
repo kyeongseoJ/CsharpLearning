@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,33 +7,33 @@ public class KyeongSeoJeon_Chapter5_ex1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // ÇĞÁ¡ ¾È³» ÇÁ·Î±×·¥ ¸¸µé±â
-            // »ç¿ëÀÚÀÇ Á¡¼ö¸¦ ÀÔ·Â¹Ş¾Æ 90Á¡ ÀÌ»óÀº ¡°A¡±,
-            // 80Á¡ ÀÌ»óÀº ¡°B¡±, 70Á¡ ÀÌ»óÀº ¡°C¡±, 69Á¡ ÀÌÇÏ Á¡¼ö´Â ¡°F¡±
-            // °¡ Ãâ·ÂµÇ´Â ÇÁ·Î±×·¥À» ¸¸µé¾î ÁÖ¼¼¿ä.
+        // í•™ì  ì•ˆë‚´ í”„ë¡œê·¸ë¨ ë§Œë“¤ê¸°
+            // ì‚¬ìš©ìì˜ ì ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ 90ì  ì´ìƒì€ â€œAâ€,
+            // 80ì  ì´ìƒì€ â€œBâ€, 70ì  ì´ìƒì€ â€œCâ€, 69ì  ì´í•˜ ì ìˆ˜ëŠ” â€œFâ€
+            // ê°€ ì¶œë ¥ë˜ëŠ” í”„ë¡œê·¸ë¨ì„ ë§Œë“¤ì–´ ì£¼ì„¸ìš”.
         string userInput = "88";
         string score = "";
         int number = int.Parse(userInput);
         if (90 <= number)
         {
             score = "A";
-            Debug.Log($"ÀÔ·ÂÇÏ½Å Á¡¼ö´Â {number}À¸·Î {score}ÇĞÁ¡ÀÔ´Ï´Ù.");
+            Debug.Log($"ì…ë ¥í•˜ì‹  ì ìˆ˜ëŠ” {number}ìœ¼ë¡œ {score}í•™ì ì…ë‹ˆë‹¤.");
         }
         else if (80 <= number && number < 90)
         {
             score = "B";
-            Debug.Log($"ÀÔ·ÂÇÏ½Å Á¡¼ö´Â {number}À¸·Î {score}ÇĞÁ¡ÀÔ´Ï´Ù..");
+            Debug.Log($"ì…ë ¥í•˜ì‹  ì ìˆ˜ëŠ” {number}ìœ¼ë¡œ {score}í•™ì ì…ë‹ˆë‹¤..");
         }
         else if (70 <= number && number < 80)
         {
             score = "C";
-            Debug.Log($"ÀÔ·ÂÇÏ½Å Á¡¼ö´Â {number}À¸·Î {score}ÇĞÁ¡ÀÔ´Ï´Ù..");
+            Debug.Log($"ì…ë ¥í•˜ì‹  ì ìˆ˜ëŠ” {number}ìœ¼ë¡œ {score}í•™ì ì…ë‹ˆë‹¤..");
         }
-       //  else if (70 <= number < 80) ¹üÀ§·Î ÀÛ¼ºÇÏ¸é ¿¡·¯³²       
+       //  else if (70 <= number < 80) ë²”ìœ„ë¡œ ì‘ì„±í•˜ë©´ ì—ëŸ¬ë‚¨       
         else
         {
             score = "F";
-            Debug.Log($"ÀÔ·ÂÇÏ½Å Á¡¼ö´Â {number}À¸·Î {score}ÇĞÁ¡ÀÔ´Ï´Ù..");
+            Debug.Log($"ì…ë ¥í•˜ì‹  ì ìˆ˜ëŠ” {number}ìœ¼ë¡œ {score}í•™ì ì…ë‹ˆë‹¤..");
         }
         
     }

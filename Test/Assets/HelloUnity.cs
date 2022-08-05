@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,13 +7,13 @@ public class HelloUnity : MonoBehaviour
     void Start()
     {
         Debug.Log("Hello, C# World!!");
-        Debug.Log("¿©·¯ºĞ, ¾È³çÇÏ¼¼¿ä?");
-        Debug.Log("¹İ°©½À´Ï´Ù!");
-        Debug.Log("C# ¾î·ÆÁö ¾Ê¾Æ¿ä~");
-        Debug.Log("¿ì¸®°°ÀÌ!");
-        Debug.Log("ÀÍ¼÷ÇØÁ®º¾½Ã´Ù~");
+        Debug.Log("ì—¬ëŸ¬ë¶„, ì•ˆë…•í•˜ì„¸ìš”?");
+        Debug.Log("ë°˜ê°‘ìŠµë‹ˆë‹¤!");
+        Debug.Log("C# ì–´ë µì§€ ì•Šì•„ìš”~");
+        Debug.Log("ìš°ë¦¬ê°™ì´!");
+        Debug.Log("ìµìˆ™í•´ì ¸ë´…ì‹œë‹¤~");
 
-        Debug.Log("Hello, C# World! \n ¿©·¯ºĞ, ¾È³çÇÏ¼¼¿ä? \n ¹İ°©½À´Ï´Ù! \n C# ¾î·ÆÁö ¾Ê¾Æ¿ä~ \n ¿ì¸®°°ÀÌ! \n ÀÍ¼÷ÇØÁ®º¾½Ã´Ù~ ");
+        Debug.Log("Hello, C# World! \n ì—¬ëŸ¬ë¶„, ì•ˆë…•í•˜ì„¸ìš”? \n ë°˜ê°‘ìŠµë‹ˆë‹¤! \n C# ì–´ë µì§€ ì•Šì•„ìš”~ \n ìš°ë¦¬ê°™ì´! \n ìµìˆ™í•´ì ¸ë´…ì‹œë‹¤~ ");
     }
 
     void Update()

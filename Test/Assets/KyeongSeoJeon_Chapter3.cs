@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,11 +14,11 @@ public class KyeongSeoJeon_Chapter3 : MonoBehaviour
         int d = int.Parse(b);
         int e = c * d;
 
-        Debug.Log($"»ç°¢ÇüÀÇ ³Êºñ´Â {a} ÀÔ´Ï´Ù.");
-        Debug.Log($"»ç°¢ÇüÀÇ ³ôÀÌ´Â {b} ÀÔ´Ï´Ù.");
-        Debug.Log($"»ç°¢ÇüÀÇ ³ĞÀÌ´Â  : {e}");
+        Debug.Log($"ì‚¬ê°í˜•ì˜ ë„ˆë¹„ëŠ” {a} ì…ë‹ˆë‹¤.");
+        Debug.Log($"ì‚¬ê°í˜•ì˜ ë†’ì´ëŠ” {b} ì…ë‹ˆë‹¤.");
+        Debug.Log($"ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ”  : {e}");
 
-        Debug.Log("2022.02.17 : Ã¹¹øÂ° °úÁ¦ Á¦ÃâÀÔ´Ï´Ù.");
+        Debug.Log("2022.02.17 : ì²«ë²ˆì§¸ ê³¼ì œ ì œì¶œì…ë‹ˆë‹¤.");
     }
 
     // Update is called once per frame

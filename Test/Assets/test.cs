@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +8,7 @@ public class test : MonoBehaviour
     void Start()
     {
 
-        //»ç¿ëÀÚ¿¡°Ô Á¤¼ö 2°³¿Í ±âÈ£(+,-,*,/,%)¸¦ ÀÔ·Â¹Ş¾Æ °á°ú°ªÀÌ ³ª¿À´Â °è»ê±â¸¦ ¸¸µé¾îÁÖ¼¼¿ä.
+        //ì‚¬ìš©ìì—ê²Œ ì •ìˆ˜ 2ê°œì™€ ê¸°í˜¸(+,-,*,/,%)ë¥¼ ì…ë ¥ë°›ì•„ ê²°ê³¼ê°’ì´ ë‚˜ì˜¤ëŠ” ê³„ì‚°ê¸°ë¥¼ ë§Œë“¤ì–´ì£¼ì„¸ìš”.
         string userInput1 = "10";
         string userInput2 = "2";
         string userInput3 = "/";

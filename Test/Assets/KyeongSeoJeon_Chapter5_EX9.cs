@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,8 +7,8 @@ public class KyeongSeoJeon_Chapter5_EX9 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // 1~10±îÁö Á¤¼ö Áß¿¡¼­ 3À¸·Î ³ª´©¾î ¶³¾îÁöÁö ¾Ê´Â ¼ö¸¦ Ãâ·ÂÇÏ°í,
-        // ÀÌ ¼öµéÀÇ ÇÕÀ» Ãâ·Â
+        // 1~10ê¹Œì§€ ì •ìˆ˜ ì¤‘ì—ì„œ 3ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ì§€ ì•ŠëŠ” ìˆ˜ë¥¼ ì¶œë ¥í•˜ê³ ,
+        // ì´ ìˆ˜ë“¤ì˜ í•©ì„ ì¶œë ¥
         int sum = 0;
         
         for(int i = 1; i <= 10; i++)
@@ -18,7 +18,7 @@ public class KyeongSeoJeon_Chapter5_EX9 : MonoBehaviour
                     Debug.Log(i);
                     sum += i;
                 } 
-            } Debug.Log($"1~10Áß 3À¸·Î ³ª´©¾î ¶³¾îÁöÁö ¾Ê´Â ¼öÀÇ ÇÕ : {sum}");
+            } Debug.Log($"1~10ì¤‘ 3ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ì§€ ì•ŠëŠ” ìˆ˜ì˜ í•© : {sum}");
 
     }
 

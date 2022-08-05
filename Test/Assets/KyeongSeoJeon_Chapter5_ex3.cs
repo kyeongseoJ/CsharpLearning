@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,11 +12,11 @@ public class KyeongSeoJeon_Chapter5_ex3 : MonoBehaviour
 
         if (num == 0)
         {
-            Debug.Log($"{num}(Àº)´Â3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+            Debug.Log($"{num}(ì€)ëŠ”3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.");
         }
         else
         {
-        string result = (num % 3 == 0) ? $"{num}(Àº)´Â 3ÀÇ ¹è¼öÀÔ´Ï´Ù." : $"{num}(Àº)´Â3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.";
+        string result = (num % 3 == 0) ? $"{num}(ì€)ëŠ” 3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤." : $"{num}(ì€)ëŠ”3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.";
             Debug.Log(result);
         }
     }

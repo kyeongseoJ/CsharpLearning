@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -61,9 +61,9 @@ public class Chapter4 : MonoBehaviour
         //Debug.Log($"!True : {!true}"); // False
         //Debug.Log($"!False : {!false}"); // True
 
-        //string result = (10 % 2) == 0 ? "Â¦¼ö" : "È¦¼ö";
+        //string result = (10 % 2) == 0 ? "ì§ìˆ˜" : "í™€ìˆ˜";
 
-        //Debug.Log(result); // Â¦¼ö
+        //Debug.Log(result); // ì§ìˆ˜
 
         //int a;
         //a = 100;

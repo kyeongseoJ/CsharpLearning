@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,49 +7,49 @@ public class IF_Saetze : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // ¿ø·¡ »ç¿ëÀÚ ÀÔ·ÂÀ» ¹Ş´Â ¼ö´Â ¹®ÀÚ¿­·Î µé¾î¿À±â ¶§¹®¿¡ Çüº¯È¯ °úÁ¤À» °ÅÃÄ¾ß ÇÑ´Ù.
-        string userInput0 = "stringÀÔ´Ï´Ù.";
+        // ì›ë˜ ì‚¬ìš©ì ì…ë ¥ì„ ë°›ëŠ” ìˆ˜ëŠ” ë¬¸ìì—´ë¡œ ë“¤ì–´ì˜¤ê¸° ë•Œë¬¸ì— í˜•ë³€í™˜ ê³¼ì •ì„ ê±°ì³ì•¼ í•œë‹¤.
+        string userInput0 = "stringì…ë‹ˆë‹¤.";
         int num0 = int.Parse(userInput0);
 
-        // Á¶°Ç¿¬»ê¹® ¿¹Á¦ ¸¸µé¾îº¸±â À½¼ö ¾ç¼ö ÆÇº°
+        // ì¡°ê±´ì—°ì‚°ë¬¸ ì˜ˆì œ ë§Œë“¤ì–´ë³´ê¸° ìŒìˆ˜ ì–‘ìˆ˜ íŒë³„
         int userInput = -33;
-        string result = (userInput > 0 && userInput!= 0) ? "¾ç¼ö" : "À½¼ö";
+        string result = (userInput > 0 && userInput!= 0) ? "ì–‘ìˆ˜" : "ìŒìˆ˜";
         Debug.Log(result);
 
-        // Á¶°Ç¿¬»ê¹® ¿¹Á¦ ¸¸µé¾îº¸±â 2 Â¦¼ö È¦¼ö
+        // ì¡°ê±´ì—°ì‚°ë¬¸ ì˜ˆì œ ë§Œë“¤ì–´ë³´ê¸° 2 ì§ìˆ˜ í™€ìˆ˜
         int userInput1 = 20;
-        string result1 = userInput1 % 2 == 0 ? "Â¦¼ö" : "È¦¼ö";
+        string result1 = userInput1 % 2 == 0 ? "ì§ìˆ˜" : "í™€ìˆ˜";
         Debug.Log(result1);
 
-        // Á¶°Ç¿¬»ê¹® ¿¹Á¦ ¸¸µé¾îº¸±â 3 ³ªÀÌ
+        // ì¡°ê±´ì—°ì‚°ë¬¸ ì˜ˆì œ ë§Œë“¤ì–´ë³´ê¸° 3 ë‚˜ì´
         int age = 27;
-        string result2 = 0 < age && age <= 20 ? "¾ÆÀÌ" : "¼ºÀÎ";
+        string result2 = 0 < age && age <= 20 ? "ì•„ì´" : "ì„±ì¸";
         Debug.Log(result2);
 
-        // Á¶°Ç¿¬»ê¹® ¿¹Á¦ ¸¸µé¾îº¸±â 4 ÁßÃ¸Á¶°Ç¹® °æ¿ì
+        // ì¡°ê±´ì—°ì‚°ë¬¸ ì˜ˆì œ ë§Œë“¤ì–´ë³´ê¸° 4 ì¤‘ì²©ì¡°ê±´ë¬¸ ê²½ìš°
         int num = 42;
-        string result3 = num > 0 && num % 2 == 0 ? "0º¸´Ù Å« Â¦¼ö" : "0º¸´Ù Å« È¦¼ö";
-        string result4 = num < 0 ? "0º¸´Ù ÀÛ¼­³ª °°Àº ¼ö" : "";
+        string result3 = num > 0 && num % 2 == 0 ? "0ë³´ë‹¤ í° ì§ìˆ˜" : "0ë³´ë‹¤ í° í™€ìˆ˜";
+        string result4 = num < 0 ? "0ë³´ë‹¤ ì‘ì„œë‚˜ ê°™ì€ ìˆ˜" : "";
         Debug.Log(result3);
         Debug.Log(result4);
 
-        //if¹® ¿¹Á¦ ¸¸µé¾îº¸±â1
+        //ifë¬¸ ì˜ˆì œ ë§Œë“¤ì–´ë³´ê¸°1
         int a = 3;
         int b = 8;
         if (a - b < 0)
         {
-            Debug.Log("a°¡ bº¸´Ù ÀÛ´Ù.");
+            Debug.Log("aê°€ bë³´ë‹¤ ì‘ë‹¤.");
         }
         else if(a - b == 0)
         {
-            Debug.Log("a¿Í b´Â °ªÀÌ °°´Ù.");
+            Debug.Log("aì™€ bëŠ” ê°’ì´ ê°™ë‹¤.");
         }
         else
         {
-            Debug.Log("a°¡ bº¸´Ù Å©´Ù.");
+            Debug.Log("aê°€ bë³´ë‹¤ í¬ë‹¤.");
         }
 
-        // if¹® ¿¹Á¦ ¸¸µé¾îº¸±â2
+        // ifë¬¸ ì˜ˆì œ ë§Œë“¤ì–´ë³´ê¸°2
         
 
 

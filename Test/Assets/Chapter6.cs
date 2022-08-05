@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,11 +6,11 @@ public class Chapter6 : MonoBehaviour
 {
     // Start is called before the first frame update
   
-        // Method ¸Ş¼­µå : ¿©·¯ ±â´ÉÀ» ÇÏ³ªÀÇ ÀÌ¸§À¸·Î ¹­¾î³õÀº °Í
-        // class Å¬·¡½º ÀÌ¸§(´ë¹®ÀÚ·Î ½ÃÀÛÇÒ °Í)
-        // ÇÑÁ¤ÀÚ º¯È¯Çü½Ä ¸Ş¼Òµå ÀÌ¸§(¸Å°³º¯¼ö ¸ñ·Ï)
-        // {½ÇÇàÇÏ°íÀÚ ÇÏ´Â ÄÚµå(ºí·Ï)
-        // return ¸Ş¼Òµå °á°ú==> ¹İÈ¯ÇÑ´Ù´Â ÀÇ¹Ì ±×´ë·ÎÀÓ
+        // Method ë©”ì„œë“œ : ì—¬ëŸ¬ ê¸°ëŠ¥ì„ í•˜ë‚˜ì˜ ì´ë¦„ìœ¼ë¡œ ë¬¶ì–´ë†“ì€ ê²ƒ
+        // class í´ë˜ìŠ¤ ì´ë¦„(ëŒ€ë¬¸ìë¡œ ì‹œì‘í•  ê²ƒ)
+        // í•œì •ì ë³€í™˜í˜•ì‹ ë©”ì†Œë“œ ì´ë¦„(ë§¤ê°œë³€ìˆ˜ ëª©ë¡)
+        // {ì‹¤í–‰í•˜ê³ ì í•˜ëŠ” ì½”ë“œ(ë¸”ë¡)
+        // return ë©”ì†Œë“œ ê²°ê³¼==> ë°˜í™˜í•œë‹¤ëŠ” ì˜ë¯¸ ê·¸ëŒ€ë¡œì„
     class Calculater
     {
         public static int Plus(int a, int b)

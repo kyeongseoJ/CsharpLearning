@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +7,7 @@ public class KyeongSeoJeon_Chapter5_ex6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //»ç¿ëÀÚ¿¡°Ô Á¤¼ö 2°³¿Í ±âÈ£(+,-,*,/,%)¸¦ ÀÔ·Â¹Ş¾Æ °á°ú°ªÀÌ ³ª¿À´Â °è»ê±â¸¦ ¸¸µé¾îÁÖ¼¼¿ä.
+        //ì‚¬ìš©ìì—ê²Œ ì •ìˆ˜ 2ê°œì™€ ê¸°í˜¸(+,-,*,/,%)ë¥¼ ì…ë ¥ë°›ì•„ ê²°ê³¼ê°’ì´ ë‚˜ì˜¤ëŠ” ê³„ì‚°ê¸°ë¥¼ ë§Œë“¤ì–´ì£¼ì„¸ìš”.
         string userInput1 = "100";
         string userInput2 = "23";
         string userInput3 = "*";
@@ -16,7 +16,7 @@ public class KyeongSeoJeon_Chapter5_ex6 : MonoBehaviour
         int num2 = int.Parse(userInput2);
         int value = 0;
 
-        // Zero Division Error´Â ¾î¶»°Ô ÀÛ¼º..?
+        // Zero Division ErrorëŠ” ì–´ë–»ê²Œ ì‘ì„±..?
 
         switch (userInput3)
         {
@@ -36,7 +36,7 @@ public class KyeongSeoJeon_Chapter5_ex6 : MonoBehaviour
                 value = num1 % num2;
                 break;     
         }
-                Debug.Log($"ÀÔ·ÂÇÏ½Å {userInput1}{userInput3}{userInput2}ÀÇ °ªÀº {value}ÀÔ´Ï´Ù");
+                Debug.Log($"ì…ë ¥í•˜ì‹  {userInput1}{userInput3}{userInput2}ì˜ ê°’ì€ {value}ì…ë‹ˆë‹¤");
 
     }
 

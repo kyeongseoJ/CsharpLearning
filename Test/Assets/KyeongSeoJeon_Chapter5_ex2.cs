@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,16 +10,16 @@ public class KyeongSeoJeon_Chapter5_ex2 : MonoBehaviour
         string userInput = "55";
         int num = int.Parse(userInput);
 
-        string result = (50 <= num) ? "50ÀÌ»ó" : "50¹Ì¸¸";
+        string result = (50 <= num) ? "50ì´ìƒ" : "50ë¯¸ë§Œ";
         Debug.Log(result);
 
         if ( 50 <= num )
         {
-            Debug.Log("50ÀÌ»óÀÔ´Ï´Ù.");
+            Debug.Log("50ì´ìƒìž…ë‹ˆë‹¤.");
         }
         else
         {
-            Debug.Log("50¹Ì¸¸ÀÔ´Ï´Ù.");
+            Debug.Log("50ë¯¸ë§Œìž…ë‹ˆë‹¤.");
         }
 
     }

@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,24 +20,24 @@ public class Chapter3 : MonoBehaviour
         //Debug.Log("a = " + a + ", b = " + b);
         //Debug.Log($" a = {a}, b = {b}");
 
-        //char a = '¾È'; char b = '³ç'; char c = 'ÇÏ'; char d = '¼¼'; char e = '¿ä';
+        //char a = 'ì•ˆ'; char b = 'ë…•'; char c = 'í•˜'; char d = 'ì„¸'; char e = 'ìš”';
 
         //Debug.Log($"{a}{b}{c}{d}{e}");
-        ////ÀÚ¹Ù½ºÅ©¸³Æ® ¹æ½Ä ? ¹éÆ½ »ç¿ë ¾È‰Î
+        ////ìë°”ìŠ¤í¬ë¦½íŠ¸ ë°©ì‹ ? ë°±í‹± ì‚¬ìš© ì•ˆëŒ
         ////Debug.Log(`${ a, b, c, d, e}`);
-        //Debug.Log('a' + 'b' + 'c' + 'd' + 'e'); // 495 ¶ó°í ³ª¿È => À¯´ÏÄÚµå °ªÀÌ °è»êµÇ¼­ ³ª¿È
-        //Debug.Log($"{a + b + c + d + e}"); // 250817 ÀÌ¶ó°í ³ª¿È
-        ////ÇØ°á¹æ¹ı: ¹®ÀÚ¿­·Î ½ÃÀÛÇØÁÖ¸é ÄÄÆÄÀÏ·¯°¡ ¹®ÀÚ·Î ÀĞÀ½
-        //Debug.Log("" + a + b + c + d + e); //¾È³çÇÏ¼¼¿ä
+        //Debug.Log('a' + 'b' + 'c' + 'd' + 'e'); // 495 ë¼ê³  ë‚˜ì˜´ => ìœ ë‹ˆì½”ë“œ ê°’ì´ ê³„ì‚°ë˜ì„œ ë‚˜ì˜´
+        //Debug.Log($"{a + b + c + d + e}"); // 250817 ì´ë¼ê³  ë‚˜ì˜´
+        ////í•´ê²°ë°©ë²•: ë¬¸ìì—´ë¡œ ì‹œì‘í•´ì£¼ë©´ ì»´íŒŒì¼ëŸ¬ê°€ ë¬¸ìë¡œ ì½ìŒ
+        //Debug.Log("" + a + b + c + d + e); //ì•ˆë…•í•˜ì„¸ìš”
 
-        //string a = "¾È³çÇÏ¼¼¿ä?";
-        //string b = "Àü°æ¼­ ÀÔ´Ï´Ù.";
+        //string a = "ì•ˆë…•í•˜ì„¸ìš”?";
+        //string b = "ì „ê²½ì„œ ì…ë‹ˆë‹¤.";
 
         //Debug.Log(a);
         //Debug.Log(b);
 
         //Debug.Log($"{a + b}");
-        //Debug.Log($"{a}" + $"{b}"); //¶ç¾î¾²±â °³Çà¹®ÀÚ Àû¿ë ¾î¶»°Ô ³Ö´ÂÁö... \s, \n ¿¡·¯Ç¥½Ã³² => Áö¿ø¾È‰Î
+        //Debug.Log($"{a}" + $"{b}"); //ë„ì–´ì“°ê¸° ê°œí–‰ë¬¸ì ì ìš© ì–´ë–»ê²Œ ë„£ëŠ”ì§€... \s, \n ì—ëŸ¬í‘œì‹œë‚¨ => ì§€ì›ì•ˆëŒ
 
         //bool a = true;
         //bool b = false;
@@ -45,7 +45,7 @@ public class Chapter3 : MonoBehaviour
         //Debug.Log(a); // True = 1
         //Debug.Log(b); // False = 0
 
-        //string c = "rudtj"; // ÃßÀûÁ¡ alt + F12
+        //string c = "rudtj"; // ì¶”ì ì  alt + F12
 
         //float a = 0.9f;
         //float b = (int)a;

@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,17 +7,17 @@ public class KyeongSeoJeon_Chapter5_ex5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //±¤ÁÖÃÊµîÇÐ±³¿¡¼­ 1ÇÐ³âºÎÅÍ 4ÇÐ³â±îÁö Áß°£°í»ç ½ÃÇèÀ» º¸¾Ò´Ù.
-        //4ÇÐ³âÀº 70Á¡ ÀÌ»óÀÌ¸é ÇÕ°Ý, ±× ÀÌ¿ÜÀÇ ÇÐ³âÀº 60Á¡ ÀÌ»óÀÌ¸é ÇÕ°ÝÀÌ´Ù.
-        //ÀÌ¸¦ ÆÇ´ÜÇÏ´Â ÇÁ·Î±×·¥À» ¸¸µé¾îÁÖ¼¼¿ä. Á¡¼ö°¡ 0¹Ì¸¸ 100ÃÊ°úÀÌ¸é °æ°í¹®±¸ Ãâ·Â!
+        //ê´‘ì£¼ì´ˆë“±í•™êµì—ì„œ 1í•™ë…„ë¶€í„° 4í•™ë…„ê¹Œì§€ ì¤‘ê°„ê³ ì‚¬ ì‹œí—˜ì„ ë³´ì•˜ë‹¤.
+        //4í•™ë…„ì€ 70ì  ì´ìƒì´ë©´ í•©ê²©, ê·¸ ì´ì™¸ì˜ í•™ë…„ì€ 60ì  ì´ìƒì´ë©´ í•©ê²©ì´ë‹¤.
+        //ì´ë¥¼ íŒë‹¨í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ë§Œë“¤ì–´ì£¼ì„¸ìš”. ì ìˆ˜ê°€ 0ë¯¸ë§Œ 100ì´ˆê³¼ì´ë©´ ê²½ê³ ë¬¸êµ¬ ì¶œë ¥!
 
-        string userGrade = "4ÇÐ³â";
+        string userGrade = "4í•™ë…„";
         string userInput = "45";
         int userScore = int.Parse(userInput);
 
-        if (userGrade == "4ÇÐ³â")
+        if (userGrade == "4í•™ë…„")
         {
-            string result = (userScore >= 70)? "ÇÕ°Ý" : "ºÒÇÕ°Ý";
+            string result = (userScore >= 70)? "í•©ê²©" : "ë¶ˆí•©ê²©";
         }
         else
         {
